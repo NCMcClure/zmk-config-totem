@@ -138,8 +138,8 @@
 
             bindings = <
            &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS      &kp ASTERISK  &kp SQT     &kp DQT
-           &kp TILDE  &none   &none     &none     &none        &kp C_MUTE    &none         &none         &none       &none
-&kp GRAVE  &none      &none   &none     &none     &none        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT  &kp BSLH  &trans
+           &kp TILDE  &none   &none     &none     &none        &kp C_MUTE    &none         &none         &none       &kp RS(MINUS)
+&kp GRAVE  &none      &none   &none     &none     &none        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT  &kp BSLH       &kp MINUS
                               &trans    &to 3     &trans       &trans        &kp C_PP      &trans
             >;
         };
